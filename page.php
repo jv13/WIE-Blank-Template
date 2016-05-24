@@ -1,6 +1,7 @@
 <?php get_header(); ?>
+
     <section class="row">
-        <div class="twelve columns">
+        <div class="eight columns">
 
 <!-- BEGIN PAGE PHP -->
             <?php if ( have_posts() ) {
@@ -14,6 +15,10 @@
             } ?>
 <!-- END PAGE PHP -->
 
+        </div>
+
+        <div class="four columns">
+            <?php get_sidebar(); ?>
         </div>
     </section>
 
