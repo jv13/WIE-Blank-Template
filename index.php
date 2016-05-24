@@ -5,8 +5,18 @@
     <!-- BEGIN SECTION CONTAINER -->
         <section class="row">
             <div class="twelve columns">
-                <h3>This is the Section</h3>
-                <p>This is some cool section content</p>
+
+                <!-- BEGIN LOOP -->
+                <?php
+                  if ( have_posts() ) {
+                    while ( have_posts() ) {
+                      the_post();
+                    } // end while
+                  } // end if
+                ?>
+                <!-- END LOOP -->
+
+
             </div>
         </section>
     <!-- END SECTION CONTAINER -->
