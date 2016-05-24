@@ -5,7 +5,7 @@
     <!-- BEGIN SECTION CONTAINER -->
         <section class="row">
             <div class="twelve columns">
-                <h2>This is the Section</h2>
+                <h3>This is the Section</h3>
                 <p>This is some cool section content</p>
             </div>
         </section>
