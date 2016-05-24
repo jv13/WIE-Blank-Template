@@ -9,9 +9,28 @@
 
 </head>
 <body>
+    <div class="container">
+        <header class="row">
+            <div class="twelve columns">
+                <h1>Jen Vitrano Blank WordPress Template</h1>
+                <p>This is my WordPress template.</p>
+            </div>
+        </header>
 
-    <h1>Jen Vitrano Blank WordPress Template</h1>
-    <p>This is my WordPress template.</p>
+        <section class="row">
+            <div class="twelve columns">
+                <h2>This is the Section</h2>
+                <p>This is some cool section content</p>
+            </div>
+        </section>
+
+        <footer class="row">
+              <div class="twelve columns">
+                  <h2>This is the Footer</h2>
+                  <p>This is some cool footer content</p>
+              </div>
+        </footer>
+    </div>
 
 </body>
 </html>

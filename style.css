@@ -8,7 +8,8 @@ License: Open
 Text Domain: jen_vitrano_blank_template
 */
 
-
+@import url("stylesheets/normalize.css");
+@import url("stylesheets/skeleton.css");
 
 *{
     color: #000000;
